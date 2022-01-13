@@ -49,6 +49,10 @@ html {
     left: 0;
 }
 
+#profile{
+    margin-top: 15px;
+}
+
 #profile img {
     margin: 15px auto;
     display: block;
@@ -160,7 +164,7 @@ html {
 
 #home-container #typing span{
     color: #e51042;
-    font-size: 40px;
+    font-size: 64px;
     font-weight: 800;
 }
 
@@ -331,6 +335,7 @@ section>div {
 #lower li i {
     font-size: 32px;
     margin-right: 8px;
+    margin-left: 3px;
     color: #149ddd;
     vertical-align: middle;
 }
@@ -562,13 +567,9 @@ section>div {
         font-size: 16px;
     }
 
-    /* .info h4{
-        font-size: 25px !important;
+    #home-container #typing span{
+        font-size: 38px;
     }
-
-    .info p{
-        font-size: 15px !important;
-    } */
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
