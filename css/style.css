@@ -368,6 +368,12 @@ section>div {
     margin-left: 300px;
 }
 
+#lower .col3 a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
 #contact {
     background-color: #f5f8fd;
 }
