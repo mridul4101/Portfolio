@@ -17,7 +17,7 @@ html {
     position: fixed;
     background: inherit;
     overflow: hidden;
-    z-index: 10;
+    z-index: 9998;
     backdrop-filter: blur(8px);
 }
 
