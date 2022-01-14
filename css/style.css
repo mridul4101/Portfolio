@@ -17,11 +17,12 @@ html {
     position: fixed;
     background: inherit;
     overflow: hidden;
-    z-index: 9998;
+    z-index: 1000;
     backdrop-filter: blur(8px);
+    /* transition: all 0.5s; */
 }
 
-.nav-shift-left {
+.nav-active #navbar{
     left: 300px;
 }
 
@@ -74,7 +75,7 @@ html {
     left: 0;
     bottom: 0;
     width: 300px;
-    z-index: 9997;
+    z-index: 1000;
     transition: all 0.5s;
     padding: 0 15px;
     background: #040b14;

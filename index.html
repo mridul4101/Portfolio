@@ -26,8 +26,8 @@
         <div id="logo">
             <img src="images/favicon_io/favicon-32x32.png" alt="" id="logo-img">
         </div>
-        <i class="fa fa-bars mobile-nav-toggle" id="nav-toggle" onclick="toggleNavbar()"></i>
     </div>
+    <i class="fa fa-bars mobile-nav-toggle" id="nav-toggle" onclick="toggleNavbar()"></i>
 
     <header id="header">
         <div class="d-flex flex-col">
@@ -210,8 +210,6 @@
             var nav = document.getElementById("nav-toggle");
             var bodyClass = document.getElementById("main");
             bodyClass.classList.toggle("nav-active");
-            var navbar = document.getElementById("navbar");
-            navbar.classList.toggle("nav-shift-left");
             var logo = document.getElementById("logo");
             var logo_img = document.getElementById("logo-img");
             logo.classList.toggle("logo-disappear");
