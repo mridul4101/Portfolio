@@ -23,9 +23,9 @@ html {
     /* transition: all 0.5s; */
 }
 
-.nav-active #navbar{
+/* .nav-active #navbar{
     left: 300px;
-}
+} */
 
 #logo {
     display: inline-flex;
