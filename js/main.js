@@ -1,9 +1,9 @@
+var nav = document.getElementById("nav-toggle");
+var bodyClass = document.getElementById("main");
+var logo = document.getElementById("logo");
+var logo_img = document.getElementById("logo-img");
+
 function toggleNavbar() {
-    var nav = document.getElementById("nav-toggle");
-    var bodyClass = document.getElementById("main");
-    var logo = document.getElementById("logo");
-    var logo_img = document.getElementById("logo-img");
-    
     bodyClass.classList.toggle("nav-active");
     logo.classList.toggle("logo-disappear");
     logo_img.classList.toggle("logo-disappear");
@@ -66,5 +66,14 @@ window.onload = function () {
         if (toRotate) {
             new TxtRotate(elements[i], JSON.parse(toRotate), period);
         }
+    }
+};
+
+window.onresize = function() {
+    if(screen.width >= 1200 && bodyClass.classList.contains("nav-active")) {
+        bodyClass.classList.toggle("nav-active");
+        logo.classList.toggle("logo-disappear");
+        logo_img.classList.toggle("logo-disappear");
+        nav.className = "fa fa-bars mobile-nav-toggle";
     }
 };

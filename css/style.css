@@ -249,7 +249,7 @@ html {
     }
 }
 
-/* Lower secttion */
+/* Lower section */
 
 #lower {
     font-family: 'Nova Round', cursive;
@@ -378,6 +378,11 @@ html {
     color: black;
     font-size: 18px;
     text-decoration: none;
+}
+
+#dp {
+    height: 512px;
+    border-radius: 12px;
 }
 
 /* Contact */
